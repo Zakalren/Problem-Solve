@@ -1,1 +1,5 @@
-*.exe
+*.*
+
+!*.cpp
+!.gitignore
+!readme.md
