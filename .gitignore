@@ -1,1 +1,6 @@
-.vscode
+*.*
+
+!BOJ
+!CodeUp
+!README.md
+!.gitignore
