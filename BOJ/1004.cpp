@@ -24,19 +24,19 @@ Output Example
 0
 */
 
-int T, N, x, y, r, x1, x2, y3, y2, result;
-
 int main() {
+    int T, N, x, y, r, x1, x2, y1, y2, result;
+
     scanf("%d", &T);
     while (T--) {
         result = 0;
-        scanf("%d %d %d %d", &x1, &y3, &x2, &y2);
+        scanf("%d %d %d %d", &x1, &y1, &x2, &y2);
         scanf("%d", &N);
 
         while (N--) {
             scanf("%d %d %d", &x, &y, &r);
 
-            int distance1 = pow(x - x1, 2) + pow(y - y3, 2);
+            int distance1 = pow(x - x1, 2) + pow(y - y1, 2);
             int distance2 = pow(x - x2, 2) + pow(y - y2, 2);
             int radiusSquared = pow(r, 2);
 
