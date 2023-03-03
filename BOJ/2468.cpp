@@ -15,7 +15,7 @@ int N, maxDepth, cnt, map[MAX][MAX], visit[MAX][MAX];
 int dx[] = { 0, 0, -1, 1 };
 int dy[] = { -1, 1, 0, 0 };
 
-void bfs(int depth, int x, int y) {
+void bfs(int depth) {
     while (!q.empty()) {
         Point v = q.front();
         q.pop();
@@ -54,7 +54,7 @@ int main() {
                 if (map[j][k] > i && !visit[j][k]) {
                     visit[j][k] = 1;
                     q.push({ j, k });
-                    bfs(i, j, k);
+                    bfs(i);
                     safe++;
                 }
             }
