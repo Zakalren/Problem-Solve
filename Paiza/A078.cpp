@@ -71,7 +71,7 @@ int main() {
         }
     }
 
-    cout << "repeat\n";
+    /*cout << "repeat\n";
 
     for (int x = 0; x < 5; x++) {
         for (int y = 0; y < N; y++) {
@@ -80,7 +80,7 @@ int main() {
         cout << '\n';
     }
 
-    cout << "start\n";
+    cout << "start\n";*/
 
     do {
         found = false;
