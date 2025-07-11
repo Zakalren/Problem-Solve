@@ -1,5 +1,10 @@
-*.*
+# Ignore everything by default
+*
 
+# But don't ignore directories, so Git can track files within them
+!*/
+
+# Now, un-ignore the files we want to keep
 !*.cpp
 !*.py
 !.gitignore
