@@ -24,7 +24,7 @@ int main() {
 
     cin >> N >> M >> T;
 
-    for (int i = 0; i <= N; i++) {
+    for (int i = 1; i <= N; i++) {
         parent[i] = i;
     }
 
